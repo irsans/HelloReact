@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Footer = () =>
+const Footer = (props) =>
 {
-  var name = "BMTH";
+  //var name = "";
   return(
     <div>
-    <h4>Footer Ha;laman {name}</h4>
-    <p>@2019</p>
+    <h4>Footer Halaman {props.name} {props.Tagline}</h4>
+    <p>@{props.tahun}</p>
     </div>
   );
 };

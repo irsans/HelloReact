@@ -2,16 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header'
 import Footer from './footer'
 import List from './List'
-//import Image rom './Image'
-//
-// const Footer = () => {
-//   return (
-//     <div>
-//     <h4>Halaman Footer</h4>
-//     <p>@2019</p>
-//     </div>
-//   );
-//};
+
 
 class App extends Component {
   render() {
@@ -19,7 +10,7 @@ class App extends Component {
       <div >
         <Header/>
       <List/>
-        <Footer/>
+        <Footer name="Makanan Nusantara" tahun="2019" Tagline="Cita Rasa Indonesia"/>
       </div>
     );
 
